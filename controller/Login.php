@@ -21,6 +21,6 @@ class Login{
 		}
 		public function logout(){
 			session_destroy();
-			session_start();
+			session_start;
 		}
 }
